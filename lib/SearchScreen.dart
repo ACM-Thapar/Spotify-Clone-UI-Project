@@ -147,7 +147,10 @@ class _SearchScreenState extends State<SearchScreen> {
                           gradient: LinearGradient(
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
-                            colors: [Colors.orange, Colors.orangeAccent],
+                            colors: [
+                              Colors.orange,
+                              Colors.orangeAccent,
+                            ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
                       child: Stack(
@@ -177,7 +180,10 @@ class _SearchScreenState extends State<SearchScreen> {
                           gradient: LinearGradient(
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
-                            colors: [Colors.green, Colors.greenAccent],
+                            colors: [
+                              Color.fromARGB(255, 20, 104, 23),
+                              Color.fromARGB(255, 20, 104, 23),
+                            ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
                       child: Stack(
@@ -224,7 +230,7 @@ class _SearchScreenState extends State<SearchScreen> {
                             end: Alignment(0.8, 0.0),
                             colors: [
                               Colors.deepOrange,
-                              Colors.deepOrangeAccent
+                              Colors.deepOrangeAccent,
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -256,8 +262,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
                             colors: [
-                              Colors.orange.shade900,
-                              Colors.orange.shade900
+                              Color.fromARGB(108, 243, 57, 40),
+                              Color.fromARGB(108, 243, 57, 40),
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -309,7 +315,7 @@ class _SearchScreenState extends State<SearchScreen> {
                             end: Alignment(0.8, 0.0),
                             colors: [
                               Colors.deepOrange,
-                              Colors.deepOrangeAccent
+                              Colors.deepOrangeAccent,
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -318,7 +324,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           Container(
                             margin: EdgeInsets.only(bottom: 15, left: 10),
                             child: Text(
-                              'Educational',
+                              'Podcasts',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -341,8 +347,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
                             colors: [
-                              Colors.orange.shade900,
-                              Colors.orange.shade900
+                              Color.fromARGB(255, 11, 44, 70),
+                              Color.fromARGB(255, 11, 44, 70),
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -351,82 +357,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           Container(
                             margin: EdgeInsets.only(bottom: 15, left: 10),
                             child: Text(
-                              'True Crime',
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.bold),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-            SizedBox(
-              height: 15,
-              width: 15,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    Container(
-                      height: 90,
-                      width: 180,
-                      decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            begin: Alignment.topLeft,
-                            end: Alignment(0.8, 0.0),
-                            colors: [
-                              Colors.deepOrange,
-                              Colors.deepOrangeAccent
-                            ],
-                          ),
-                          borderRadius: BorderRadius.circular(5)),
-                      child: Stack(
-                        children: <Widget>[
-                          Container(
-                            margin: EdgeInsets.only(bottom: 15, left: 10),
-                            child: Text(
-                              'Educational',
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.bold),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    Container(
-                      height: 90,
-                      width: 180,
-                      decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            begin: Alignment.topLeft,
-                            end: Alignment(0.8, 0.0),
-                            colors: [
-                              Colors.orange.shade900,
-                              Colors.orange.shade900
-                            ],
-                          ),
-                          borderRadius: BorderRadius.circular(5)),
-                      child: Stack(
-                        children: <Widget>[
-                          Container(
-                            margin: EdgeInsets.only(bottom: 15, left: 10),
-                            child: Text(
-                              'True Crime',
+                              'Made For You',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -458,8 +389,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
                             colors: [
-                              Colors.deepOrange,
-                              Colors.deepOrangeAccent
+                              Colors.deepPurple,
+                              Colors.deepPurpleAccent
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -468,7 +399,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           Container(
                             margin: EdgeInsets.only(bottom: 15, left: 10),
                             child: Text(
-                              'Educational',
+                              'Charts',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -491,8 +422,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
                             colors: [
-                              Colors.orange.shade900,
-                              Colors.orange.shade900
+                              Colors.pink,
+                              Colors.pinkAccent,
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -501,7 +432,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           Container(
                             margin: EdgeInsets.only(bottom: 15, left: 10),
                             child: Text(
-                              'True Crime',
+                              'New Releases',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -518,7 +449,8 @@ class _SearchScreenState extends State<SearchScreen> {
             SizedBox(
               height: 15,
               width: 15,
-            ),Row(
+            ),
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Column(
@@ -532,8 +464,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
                             colors: [
-                              Colors.deepOrange,
-                              Colors.deepOrangeAccent
+                              Color.fromARGB(255, 232, 98, 142),
+                              Colors.pinkAccent,
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -542,7 +474,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           Container(
                             margin: EdgeInsets.only(bottom: 15, left: 10),
                             child: Text(
-                              'Educational',
+                              'Radio',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -565,8 +497,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
                             colors: [
-                              Colors.orange.shade900,
-                              Colors.orange.shade900
+                              Color.fromARGB(255, 226, 106, 240),
+                              Color.fromARGB(255, 226, 106, 240),
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -575,7 +507,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           Container(
                             margin: EdgeInsets.only(bottom: 15, left: 10),
                             child: Text(
-                              'True Crime',
+                              'Discover',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -588,10 +520,12 @@ class _SearchScreenState extends State<SearchScreen> {
                   ],
                 ),
               ],
-            ),SizedBox(
+            ),
+            SizedBox(
               height: 15,
               width: 15,
-            ),Row(
+            ),
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Column(
@@ -605,8 +539,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
                             colors: [
-                              Colors.deepOrange,
-                              Colors.deepOrangeAccent
+                              Color.fromARGB(255, 77, 50, 231),
+                              Color.fromARGB(255, 77, 50, 231),
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -615,7 +549,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           Container(
                             margin: EdgeInsets.only(bottom: 15, left: 10),
                             child: Text(
-                              'Educational',
+                              'Live Event',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -638,8 +572,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             begin: Alignment.topLeft,
                             end: Alignment(0.8, 0.0),
                             colors: [
-                              Colors.orange.shade900,
-                              Colors.orange.shade900
+                              Color.fromARGB(255, 187, 43, 43),
+                              Color.fromARGB(255, 187, 43, 43),
                             ],
                           ),
                           borderRadius: BorderRadius.circular(5)),
@@ -648,7 +582,82 @@ class _SearchScreenState extends State<SearchScreen> {
                           Container(
                             margin: EdgeInsets.only(bottom: 15, left: 10),
                             child: Text(
-                              'True Crime',
+                              'Bollywood',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 15,
+              width: 15,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    Container(
+                      height: 90,
+                      width: 180,
+                      decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.topLeft,
+                            end: Alignment(0.8, 0.0),
+                            colors: [
+                              Color.fromARGB(255, 251, 0, 151),
+                              Color.fromARGB(255, 251, 0, 151),
+                            ],
+                          ),
+                          borderRadius: BorderRadius.circular(5)),
+                      child: Stack(
+                        children: <Widget>[
+                          Container(
+                            margin: EdgeInsets.only(bottom: 15, left: 10),
+                            child: Text(
+                              'Punjabi',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    Container(
+                      height: 90,
+                      width: 180,
+                      decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.topLeft,
+                            end: Alignment(0.8, 0.0),
+                            colors: [
+                              Color.fromARGB(255, 98, 65, 47),
+                              Color.fromARGB(255, 98, 65, 47),
+                            ],
+                          ),
+                          borderRadius: BorderRadius.circular(5)),
+                      child: Stack(
+                        children: <Widget>[
+                          Container(
+                            margin: EdgeInsets.only(bottom: 15, left: 10),
+                            child: Text(
+                              'Tamil',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
